@@ -162,18 +162,20 @@
   \end{beamercolorbox}
 }
 
-% Block
+% Block: color box does not go below separator
 \setbeamertemplate{block begin}
 {
-  \begin{beamercolorbox}[colsep*=0ex,dp=2ex,center]{block title}
+  \begin{beamercolorbox}[colsep*=0ex,dp=0ex,center]{block title}
     \vskip0pt
     \usebeamerfont{block title}\insertblocktitle
     \vskip-1.25ex
-    \begin{beamercolorbox}[colsep=0.025ex]{block separator}\end{beamercolorbox}
+    \begin{beamercolorbox}[colsep=0.025ex]{block separator}
+	    \vskip0.2ex
+    \end{beamercolorbox}
   \end{beamercolorbox}
   {\parskip0pt\par}
   \usebeamerfont{block body}
-  \vskip-0.5ex
+  \vskip1ex
   \begin{beamercolorbox}[colsep*=0ex]{block body}
   \justifying
   \setlength{\parskip}{1ex}
