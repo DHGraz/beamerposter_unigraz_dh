@@ -6,10 +6,10 @@ This template is based on the `beamerposter` class written by Philippe Dreuw and
 
 ## How to use
 
-Linux shell:
+Linux shell, assuming that the `beamer` package is part of your $\LaTeX$ setup:
 
 ```
-# with the baposter.cls file in the same directory
+# with the beamer Gemini *.sty theme files in the same directory
 $ pdflatex poster
 ```
 
