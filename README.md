@@ -24,7 +24,7 @@ Overleaf:
 2. Upload to your Overleaf project
 
 
-![Poster example](poster_example_sm.png)
+![Poster example](poster_example.png)
 
 
 The beamer package can be found at:
