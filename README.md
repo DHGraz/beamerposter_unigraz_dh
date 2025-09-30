@@ -2,6 +2,11 @@
 
 This template is based on the `beamerposter` class written by Philippe Dreuw and Thomas Deselaers.
 
+## Philosophy
+
+The class is a derivate of the well-known `beamer` class for presentation slides.
++ The layout is a hierarchy of `block` and `column` elements. Blocks are stacked upon each other; columns line up from left to right.  A column may contain other columns or a stack of blocks.
++ Two stylesheets (a beamerposter stylesheet and a color theme) are needed: they can be customized, but it requires more effort than one would like when working under a deadline. Hence this attempt at prototyping a UniGraz theme.
 
 
 ## How to use
