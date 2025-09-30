@@ -6,11 +6,16 @@ This template is based on the `beamerposter` class written by Philippe Dreuw and
 
 ## How to use
 
-Linux shell, assuming that the `beamer` package is part of your $\LaTeX$ setup:
+In the Linux shell
+
+1. Verify that
+   + the `beamer` package is part of your LaTeX setup
+   + you use the **`lualatex`** engine (not `pdflatex`)
+   + the beamer Gemini `*.sty` theme files provided here are in your work directory
+2. Run:
 
 ```
-# with the beamer Gemini *.sty theme files in the same directory
-$ pdflatex poster
+$ lualatex poster
 ```
 
 Overleaf:
