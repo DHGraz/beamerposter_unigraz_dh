@@ -5,7 +5,7 @@ This template is based on the `beamerposter` class written by Philippe Dreuw and
 
 ## Philosophy
 
-The class is a derivate of the well-known `beamer` class for presentation slides.
+The class is a derivative of the well-known `beamer` class for presentation slides.
 + The layout is a hierarchy of `block` and `column` elements. Blocks are stacked upon each other; columns line up from left to right.  A column may contain other columns or a stack of blocks.
 + Two stylesheets are needed: a beamerposter stylesheet and a color theme. The latter is easy to adapt to your needs; the former is harder if you are not a bit acquainted with the Beamer package syntax.
 + Existing Beamer styles usually emphasize simplicity and ease of reading anyway
