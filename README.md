@@ -1,6 +1,6 @@
 # A template for UniGraz-DH poster
 
-This template is based on the `beamerposter` class written by Philippe Dreuw and Thomas Deselaers.
+This template is based on the `beamerposter` class written by Philippe Dreuw and Thomas Deselaers, as well as on a slightly modified version of the `Gemini` Beamer theme.
 
 
 ## Philosophy
@@ -11,7 +11,7 @@ The class is a derivate of the well-known `beamer` class for presentation slides
 + Existing Beamer styles usually emphasize simplicity and ease of reading anyway
 + If you already use Beamer for your presentations, recycling slides into a Beamer poster is straightforward.
 
- $\to$ choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
+ $\to$ better choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
 
 
 ## How to use
@@ -37,9 +37,12 @@ Overleaf:
 ![Poster example](poster_example.png)
 
 
-The beamer package can be found at:
+The source for BeamerPoster can be found at:
 ![https://github.com/deselaers/latex-beamerposter](https://github.com/deselaers/latex-beamerposter)
 
-The Gemini theme used for this template:
+The `beamerposter` LaTeX package at CTAN:
+![https://ctan.org/pkg/beamerposter](https://ctan.org/pkg/beamerposter)
+
+The Grazmini theme provided here is a modified version of the (MIT-flavored) Gemini theme:
 ![https://github.com/anishathalye/gemini/blob/master/poster.tex](https://github.com/anishathalye/gemini/blob/master/poster.tex)
 
