@@ -1,4 +1,4 @@
-# A template for UniGraz-DH poster
+# A template for UniGraz-DH posters
 
 This template is based on the `beamerposter` class written by Philippe Dreuw and Thomas Deselaers, as well as on a slightly modified version of the `Gemini` Beamer theme.
 
