@@ -11,7 +11,7 @@ The class is a derivate of the well-known `beamer` class for presentation slides
 + Existing Beamer styles usually emphasize simplicity and ease of reading anyway
 + If you already use Beamer for your presentations, recycling slides into a Beamer poster is straightforward.
 
-$to$ choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
+ $\to$ choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
 
 ## How to use
 
