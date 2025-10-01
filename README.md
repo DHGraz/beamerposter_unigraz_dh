@@ -6,8 +6,11 @@ This template is based on the `beamerposter` class written by Philippe Dreuw and
 
 The class is a derivate of the well-known `beamer` class for presentation slides.
 + The layout is a hierarchy of `block` and `column` elements. Blocks are stacked upon each other; columns line up from left to right.  A column may contain other columns or a stack of blocks.
-+ Two stylesheets (a beamerposter stylesheet and a color theme) are needed: they can be customized, but it requires more effort than one would like when working under a deadline. Hence this attempt at prototyping a UniGraz theme.
++ Two stylesheets are needed: a beamerposter stylesheet and a color theme. The latter is easy to adapt to your needs; the former is harder if you are not a bit acquainted with the Beamer package syntax.
++ Existing Beamer styles usually emphasize simplicity and ease of reading anyway
++ If you already use Beamer for your presentations, recycling slides into a Beamer poster is straightforward.
 
+$to$ choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
 
 ## How to use
 
