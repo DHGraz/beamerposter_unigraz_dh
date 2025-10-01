@@ -23,16 +23,31 @@
 
 \newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
 
+\graphicspath{{pics/}}
+
   % == Title ====================
+
+	\logoleft{\begin{minipage}{.9\linewidth}
+        \includegraphics[width=\linewidth]{didip_sm.png}
+		\vspace{.2em}\\
+        \includegraphics[width=\linewidth]{logo_erc-flag_eu.png}
+\end{minipage}}
+
   \title[Beamer Poster]{This Is A Rather Long Title For A Digital Humanities Poster Presentation}
 
   \author[first.author@uni-graz.at]{First Author \inst{1} \and Second Author \inst{2}}
  
   \institute[University of Graz]
-  {\inst{1} Department of Digital Humanities \samelineand \inst{2} Philosophy Department}
+  {\inst{1} Department of Digital Humanities, University of Graz \samelineand \inst{2} History Department, University of Graz}
   \date{\today}
   
-  \logoright{\includegraphics[width=\linewidth]{pics/unigraz_logo}}
+  \logoright{\includegraphics[width=\linewidth]{unigraz_logo}}
+% For more than one logo (eg. partnership with TU), eg.
+%	\logoright{\begin{minipage}{\linewidth}
+%        \includegraphics[width=\linewidth]{unigraz_logo}
+%		\vspace{.2em}\\
+%        \includegraphics[width=\linewidth]{TU_logo}
+%        \end{minipage}}
 
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
@@ -73,7 +88,7 @@
 						This is an actual \LaTeX{} figure:
 						% the 'figure' environment _may_ occur in a block
 						\begin{figure}
-						\includegraphics[width=.5\textwidth]{pics/9bde06a84833576b4027ae6331553753.img.jpg}\\
+						\includegraphics[width=.5\textwidth]{9bde06a84833576b4027ae6331553753.img.jpg}\\
 						\caption{A charter}
 						\end{figure}
 
@@ -108,7 +123,7 @@
 					\lipsum[5]
 					\end{minipage}\hfill
 					\begin{minipage}{.48\linewidth}
-					\includegraphics[width=\textwidth]{pics/img_size_scatter_plot.pdf}
+					\includegraphics[width=\textwidth]{img_size_scatter_plot.pdf}
 					\end{minipage}%
 			\end{block}
       		\end{column}

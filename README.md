@@ -13,8 +13,6 @@ The class is a derivate of the well-known `beamer` class for presentation slides
 
  $\to$ choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
 
-## TODO:
-Placeholders for team/sponsors logos.
 
 ## How to use
 
