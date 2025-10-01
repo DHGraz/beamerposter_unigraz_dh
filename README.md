@@ -19,9 +19,9 @@ The class is a derivate of the well-known `beamer` class for presentation slides
 In the Linux shell
 
 1. Verify that
-   + the `beamer` package is part of your LaTeX setup
-   + you use the **`lualatex`** engine (not `pdflatex`)
-   + the beamer Gemini `*.sty` theme files provided here are in your work directory
+   + The `beamer` package is part of your LaTeX setup.
+   + You use the **`lualatex`** engine (not `pdflatex`).
+   + The beamer Gemini `*.sty` theme files provided here are in your work directory
 2. Run:
 
 ```
