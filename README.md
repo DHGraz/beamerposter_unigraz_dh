@@ -7,9 +7,9 @@ This template is based on the `beamerposter` class written by Philippe Dreuw and
 
 The class is a derivative of the well-known `beamer` class for presentation slides.
 + The layout is a hierarchy of `block` and `column` elements. Blocks are stacked upon each other; columns line up from left to right.  A column may contain other columns or a stack of blocks.
-+ Two stylesheets are needed: a beamerposter stylesheet and a color theme. The latter is easy to adapt to your needs; the former is harder if you are not a bit acquainted with the Beamer package syntax.
-+ Existing Beamer styles usually emphasize simplicity and ease of reading anyway
++ Two stylesheets are needed: a beamerposter theme and a color scheme. The color scheme is easy to adapt to your needs; the poster theme is harder if you are not a bit acquainted with the Beamer package syntax: while existing Beamer styles emphasize simplicity and ease of reading, cosmetic bells and whistles are not particularly encouraged and require at least more work.
 + If you already use Beamer for your presentations, recycling slides into a Beamer poster is straightforward.
++ Beamer works particularly well with Tikz, a powerful graphic package for LaTeX.
 
  $\to$ better choose Beamer if you already use and like Beamer for slides and are happy with the provided stylesheets.
 
@@ -21,7 +21,7 @@ In the Linux shell
 1. Verify that
    + The `beamer` package is part of your LaTeX setup.
    + You use the **`lualatex`** engine (not `pdflatex`).
-   + The beamer Gemini `*.sty` theme files provided here are in your work directory
+   + The beamer Grazmini `*.sty` theme files provided here are in your work directory
 2. Run:
 
 ```
